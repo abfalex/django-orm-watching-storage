@@ -64,5 +64,7 @@ For the project to work correctly, you need to put some data in the `.env` file.
 If you succeeded in all of the above, congratulations. All you have to do is run the project by running the following command in the terminal:
 
 ```bash
-python main.py runserver
+python manage.py runserver 0.0.0.0:8000
 ```
+
+All that remains is to go to the address entered at the end of the command, namely: [0.0.0.0:8000](http://0.0.0.0:8000)
